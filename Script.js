@@ -265,3 +265,11 @@
 
 let name = "54a12";
 console.log(typeof name);
+
+const PI = 3.14;
+
+console.log(typeof PI);
+
+if (PI === "3.14") {
+  console.log("Work.");
+}
