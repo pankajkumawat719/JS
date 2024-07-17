@@ -261,15 +261,37 @@
 // let myname = "pankaj";
 
 // myname = myname.replace("karna");
-// console.log(myname);
+// // console.log(myname);
 
-let name = "54a12";
-console.log(typeof name);
+// let name = "54a12";
+// console.log(typeof name);
 
-const PI = 3.14;
+// const PI = 3.14;
 
-console.log(typeof PI);
+// console.log(typeof PI);
 
-if (PI === "3.14") {
-  console.log("Work.");
+// if (PI === "3.14") {
+//   console.log("Work.");
+// }
+
+// let name = true;
+
+// while () {
+//   console.log("working........");
+// }
+
+let logIn = false;
+let password;
+let username;
+
+while (!logIn) {
+  username = window.prompt(`enter username.....`);
+  password = window.prompt(`Enter a password`);
+
+  if (username === "iuser") {
+    console.log("You are login.........");
+    logIn = true;
+  } else {
+    console.log("INvlaid.........");
+  }
 }
