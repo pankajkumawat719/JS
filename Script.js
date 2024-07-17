@@ -263,3 +263,5 @@
 // myname = myname.replace("karna");
 // console.log(myname);
 
+let name = "54a12";
+console.log(typeof name);
